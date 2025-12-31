@@ -141,3 +141,17 @@ body{
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
 }
+body{
+  margin:0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(5,8,14,.88),
+      rgba(5,8,14,.96)
+    ),
+    url("/assets/images/wreck004.jpg") center / cover no-repeat fixed;
+
+  color: var(--text);
+  font-family: ui-serif, Georgia, "Times New Roman", serif;
+  line-height: 1.75;
+}
