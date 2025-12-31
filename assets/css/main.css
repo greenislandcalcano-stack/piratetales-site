@@ -108,3 +108,36 @@ p{color:var(--muted); margin:.7rem 0;}
 }
 .footer{display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap;}
 .muted{color: rgba(243,239,230,.72);}
+body{
+  margin:0;
+  background:
+    /* luz marina superior */
+    radial-gradient(
+      1200px 600px at 20% -10%,
+      rgba(40,120,140,.35),
+      transparent 60%
+    ),
+
+    /* sombra oceánica inferior */
+    radial-gradient(
+      1000px 700px at 80% 110%,
+      rgba(5,25,40,.55),
+      transparent 55%
+    ),
+
+    /* niebla central */
+    linear-gradient(
+      180deg,
+      rgba(10,20,30,.85) 0%,
+      rgba(5,10,18,.95) 40%,
+      rgba(5,8,14,1) 100%
+    ),
+
+    /* base océano */
+    #05080e;
+
+  color: var(--text);
+  font-family: ui-serif, Georgia, "Times New Roman", serif;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
