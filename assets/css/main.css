@@ -38,3 +38,37 @@ a:hover{color:var(--gold);}
 h1{font-size: clamp(2.2rem, 1.2rem + 3vw, 4rem); line-height:1.1; margin:0 0 .8rem;}
 h2{font-size: clamp(1.6rem, 1.1rem + 1.4vw, 2.35rem); margin:0 0 1rem;}
 p{color:var(--muted); margin:.7rem 0;}
+.btn{
+  display:inline-flex; align-items:center; gap:.6rem;
+  padding:.85rem 1.15rem;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background: var(--panel);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.btn:hover{transform: translateY(-2px); border-color: rgba(200,162,74,.5); box-shadow: 0 12px 30px rgba(0,0,0,.35);}
+.btn--gold{
+  background: linear-gradient(180deg, rgba(200,162,74,.95), rgba(200,162,74,.65));
+  color:#1a1206;
+  border-color: rgba(200,162,74,.55);
+}
+.btn--gold:hover{box-shadow: 0 16px 40px rgba(200,162,74,.18);}
+
+.grid{display:grid; gap:1.25rem;}
+@media (min-width: 860px){
+  .grid--3{grid-template-columns: repeat(3, 1fr);}
+  .grid--2{grid-template-columns: repeat(2, 1fr);}
+}
+
+.card{
+  border:1px solid var(--line);
+  background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+  border-radius: var(--r);
+  overflow:hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.card:hover{transform: translateY(-3px); border-color: rgba(200,162,74,.35); box-shadow: var(--shadow);}
+.card__body{padding:1.15rem;}
+.card__title{color:var(--text); font-weight:700; margin:0 0 .35rem;}
+.card__meta{font-size:.95rem; color:var(--muted);}
