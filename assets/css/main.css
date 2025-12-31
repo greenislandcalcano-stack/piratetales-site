@@ -155,3 +155,11 @@ body{
   font-family: ui-serif, Georgia, "Times New Roman", serif;
   line-height: 1.75;
 }
+.hero{
+  background:
+    radial-gradient(
+      900px 500px at 30% 0%,
+      rgba(60,140,160,.35),
+      transparent 60%
+    );
+}
