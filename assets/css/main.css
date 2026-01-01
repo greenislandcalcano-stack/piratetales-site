@@ -292,6 +292,7 @@ body{
   position:absolute;
   inset:0;
   pointer-events:none;
+
   background:
     radial-gradient(
       420px 320px at 72% 55%,
@@ -299,9 +300,15 @@ body{
       rgba(120,180,200,.14) 35%,
       transparent 65%
     );
+
   z-index:2;
-  animation: wreck-glow 9s ease-in-out infinite;
+
+  /* SAME motion language as hero, but softer */
+  animation:
+    wreck-drift 18s ease-in-out infinite,
+    wreck-glow 9s ease-in-out infinite;
 }
+
 
 @keyframes wreck-glow{
   0%   { opacity: .35; }
