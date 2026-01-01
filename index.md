@@ -1,18 +1,13 @@
 ---
-layout: page
+layout: default
 title: Welcome
 permalink: /
 ---
 
-# Welcome to Pirate Tales
-
-A living universe of legends, lost seas, and untold destinies.
-
-- [The Tales]({{ '/tales/' | relative_url }})
-- [Begin the First Tale]({{ '/tales/begin/' | relative_url }})
 <section class="hero hero--pirate">
   <div class="hero__overlay"></div>
   <div class="wreck-light"></div>
+
   <div class="container hero__content">
     <p class="hero__kicker">Pirate Tales • Saga & Chronicles</p>
 
@@ -23,9 +18,116 @@ A living universe of legends, lost seas, and untold destinies.
     </p>
 
     <div class="hero__cta">
-      <a class="btn btn--gold" href="/tales/">Explorar la Saga</a>
-      <a class="btn" href="/tales/begin/">Comenzar la Historia</a>
+      <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Explorar la Saga</a>
+      <a class="btn" href="{{ '/tales/begin/' | relative_url }}">Comenzar la Historia</a>
     </div>
   </div>
 </section>
 
+<section id="highlights" class="section">
+  <div class="container">
+    <h2>Welcome to Pirate Tales</h2>
+    <p>
+      A living universe of legends, lost seas, and untold destinies. Choose your route: forbidden islands, colonial courts,
+      cursed oceans, and love that survives storms.
+    </p>
+
+    <div style="margin-top:1.2rem; display:flex; gap:.8rem; flex-wrap:wrap;">
+      <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">The Tales</a>
+      <a class="btn" href="{{ '/tales/begin/' | relative_url }}">Begin the First Tale</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>The Pirate Tales Sagas</h2>
+    <p>
+      Each saga is a doorway—enter carefully.
+    </p>
+
+    <div class="grid grid--3" style="margin-top:1.4rem;">
+      <article class="card">
+        <div class="card__body">
+          <h3 class="card__title">The Captain’s Curse</h3>
+          <p class="card__meta">Blood oaths • Haunted charts • A legacy that refuses to sink</p>
+          <p>
+            A captain’s past rises from the abyss, and every clue demands a price. Treasure is never just gold—it’s a sentence.
+          </p>
+          <div style="margin-top:1rem;">
+            <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Explore</a>
+            <a class="btn" href="{{ '/tales/begin/' | relative_url }}">Start</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__body">
+          <h3 class="card__title">Islas de Los Muertos</h3>
+          <p class="card__meta">Forbidden island • Sea creatures • Witchcraft & prophecy</p>
+          <p>
+            The ocean keeps its secrets… until it chooses a witness. Something ancient watches the coastline—and it knows your name.
+          </p>
+          <div style="margin-top:1rem;">
+            <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Enter</a>
+            <a class="btn" href="{{ '/tales/' | relative_url }}">Details</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__body">
+          <h3 class="card__title">Saint Domingue Intrigue</h3>
+          <p class="card__meta">Colonial court • Betrayals • Romance & politics</p>
+          <p>
+            Behind silk curtains and polished smiles, knives travel faster than rumors. One alliance could save you—or bury you.
+          </p>
+          <div style="margin-top:1rem;">
+            <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Enter</a>
+            <a class="btn" href="{{ '/tales/' | relative_url }}">Details</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Meet the Legends</h2>
+    <p>
+      Not heroes. Not villains. Survivors with sharp tongues, haunted loyalties, and storms in their eyes.
+    </p>
+
+    <div class="grid grid--2" style="margin-top:1.4rem;">
+      <article class="card"><div class="card__body">
+        <h3 class="card__title">Caonex</h3>
+        <p class="card__meta">A strategist with a price on his name</p>
+        <p>A man who negotiates like a priest and fights like a devil. Every deal he makes leaves a shadow behind.</p>
+      </div></article>
+
+      <article class="card"><div class="card__body">
+        <h3 class="card__title">Sebastien “Sebas” Alexi</h3>
+        <p class="card__meta">The calm blade of the Black Wood</p>
+        <p>He speaks softly because he doesn’t need to raise his voice. When he moves, ships listen.</p>
+      </div></article>
+
+      <article class="card"><div class="card__body">
+        <h3 class="card__title">Rufo</h3>
+        <p class="card__meta">A wild laugh in the middle of gunpowder</p>
+        <p>The funniest man on deck… until the moment you realize the joke is usually a warning.</p>
+      </div></article>
+
+      <article class="card"><div class="card__body">
+        <h3 class="card__title">Lulue</h3>
+        <p class="card__meta">Charm, silk… and a hidden agenda</p>
+        <p>She smiles like salvation and plans like a revolution. In her story, love is never harmless.</p>
+      </div></article>
+    </div>
+
+    <div style="margin-top:1.6rem;">
+      <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Read the Tales</a>
+      <a class="btn" href="{{ '/tales/begin/' | relative_url }}">Begin the Journey</a>
+    </div>
+  </div>
+</section>
