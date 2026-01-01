@@ -176,7 +176,6 @@ body{
   overflow: hidden;
 }
 
-/* Oscurece y dramatiza la imagen */
 .hero--pirate::before{
   content:"";
   position:absolute;
@@ -185,9 +184,9 @@ body{
     linear-gradient(
       90deg,
       rgba(5,8,14,.95) 0%,
-      rgba(5,8,14,.75) 40%,
-      rgba(5,8,14,.35) 70%,
-      rgba(5,8,14,.15) 100%
+      rgba(5,8,14,.78) 38%,
+      rgba(5,8,14,.55) 62%,
+      rgba(5,8,14,.28) 100%
     );
   z-index:1;
 }
@@ -287,4 +286,28 @@ body{
 }
 @media (max-width: 860px){
   .hero__content{ padding: 1rem 1rem; }
+}
+/* Luz submarina sobre el barco hundido */
+.hero--pirate .wreck-light{
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:
+    radial-gradient(
+      420px 320px at 72% 55%,
+      rgba(120,180,200,.28),
+      rgba(120,180,200,.14) 35%,
+      transparent 65%
+    );
+  z-index:2;
+  animation: wreck-glow 9s ease-in-out infinite;
+}
+
+@keyframes wreck-glow{
+  0%   { opacity: .35; }
+  50%  { opacity: .65; }
+  100% { opacity: .35; }
+}
+.hero--pirate{
+  background-position: 58% 45%;
 }
