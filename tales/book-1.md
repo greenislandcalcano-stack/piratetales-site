@@ -11,7 +11,7 @@ permalink: /tales/book-1/
 
     <div class="grid grid--2" style="margin-top:1.4rem; align-items:start;">
       <div>
-        <img src="{{ '/assets/images/books/the-secret-treasure.png' | relative_url }}" alt="Book I cover" style="width:100%; max-width:420px; border-radius:14px; box-shadow:0 20px 40px rgba(0,0,0,.55);">
+        <img src="{{ '/assets/images/book-1.jpg' | relative_url }}" alt="Book I cover" style="width:100%; max-width:420px; border-radius:14px; box-shadow:0 20px 40px rgba(0,0,0,.55);">
       </div>
 
       <div>
