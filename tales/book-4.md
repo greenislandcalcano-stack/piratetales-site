@@ -12,7 +12,7 @@ permalink: /tales/book-4/
     <div class="grid grid--2" style="margin-top:1.4rem; align-items:start;">
       <div>
         <img
-          src="{{ '/assets/images/books/captain-curse.png' | relative_url }}"
+          src="{{ '/assets/images/book-4.jpg' | relative_url }}"
           alt="Book IV — The Captain’s Curse cover"
           style="width:100%; max-width:420px; border-radius:14px; box-shadow:0 20px 40px rgba(0,0,0,.55);"
         >
