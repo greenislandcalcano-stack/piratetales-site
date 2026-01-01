@@ -311,3 +311,8 @@ body{
 .hero--pirate{
   background-position: 58% 45%;
 }
+.card__body h3{
+  margin: 0 0 .45rem;
+  font-size: 1.25rem;
+  letter-spacing: .2px;
+}
