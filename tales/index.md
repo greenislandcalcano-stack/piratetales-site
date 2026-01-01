@@ -14,7 +14,7 @@ permalink: /tales/
     <div class="grid grid--4" style="margin-top:2rem;">
       <article class="book-card">
         <a href="{{ '/tales/book-1/' | relative_url }}">
-          <img src="{{ '/assets/images/books/book-1-secret-treasure.jpg' | relative_url }}" alt="Pirate Tales Book I — The Secret Treasure cover">
+          <img src="{{ '/assets/images/books/the-secret-treasure.png' | relative_url }}" alt="Pirate Tales Book I — The Secret Treasure cover">
         </a>
         <h3>Book I</h3>
         <p class="book-card__title">The Secret Treasure</p>
