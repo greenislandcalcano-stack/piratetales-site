@@ -14,12 +14,12 @@ permalink: /
     <h1>Pirates. Prophecies.<br>Blood Oaths.</h1>
 
     <p class="hero__lead">
-      Una saga de intriga colonial, mares embrujados y legados que regresan con la marea.
+     A saga of colonial intrigue, haunted seas, and legacies that return with the tide.
     </p>
 
     <div class="hero__cta">
-      <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Explorar la Saga</a>
-      <a class="btn" href="{{ '/tales/begin/' | relative_url }}">Comenzar la Historia</a>
+      <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Explore Saga</a>
+      <a class="btn" href="{{ '/tales/begin/' | relative_url }}">Start the Story</a>
     </div>
   </div>
 </section>
