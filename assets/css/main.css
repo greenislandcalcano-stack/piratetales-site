@@ -436,3 +436,7 @@ body{
   font-size:1.05rem;
   margin-top:.25rem;
 }
+.book-card:hover img{
+  transform: translateY(-6px) scale(1.03);
+  object-position: center;
+}
