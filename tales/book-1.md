@@ -17,7 +17,9 @@ permalink: /tales/book-1/
       <div>
         <h2>Synopsis</h2>
         <p>
-          (Paste your official synopsis here. 1–2 paragraphs max, punchy and cinematic.)
+          The hunt begins with a map that should not exist and a treasure that refuses to stay buried. When Anacaonex and Caonex cross paths with relics tied to forgotten oaths, they step into a web of alliances where trust is currency and betrayal is inevitable. Every clue they uncover drags them deeper into a legacy soaked in salt, blood, and lies whispered by the sea itself.
+
+But the treasure is only the surface. Beneath it lies a truth powerful enough to reshape loyalties and awaken enemies long thought lost to time. As rival crews close in and the past claws its way back into the present, Anacaonex and Caonex must decide what they are willing to sacrifice—because some riches demand far more than gold.
         </p>
 
         <div style="margin-top:1rem;">
