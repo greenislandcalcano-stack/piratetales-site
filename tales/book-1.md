@@ -33,6 +33,17 @@ permalink: /tales/book-1/
           claws its way back into the present, Anacaonex and Caonex must decide what they are willing
           to sacrifice—because some riches demand far more than gold.
         </p>
+<div style="margin-top:1rem;">
+  <a class="btn btn--gold"
+     href="https://www.amazon.com/dp/B0FDFHWK8L"
+     target="_blank"
+     rel="noopener noreferrer">
+    Buy on Amazon
+  </a>
+
+  <a class="btn" href="{{ '/tales/' | relative_url }}">All Books</a>
+  <a class="btn" href="{{ '/tales/book-2/' | relative_url }}">Next: Book II</a>
+</div>
 
         <div style="margin-top:1rem;">
           <a class="btn btn--gold" href="{{ '/tales/begin/' | relative_url }}">Start Here</a>
