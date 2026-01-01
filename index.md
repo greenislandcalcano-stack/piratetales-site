@@ -131,3 +131,59 @@ permalink: /
     </div>
   </div>
 </section>
+<section id="books" class="section">
+  <div class="container">
+    <h2>The Books</h2>
+    <p>Three volumes. One living universe. Start anywhere—if you dare.</p>
+
+    <div class="grid grid--3" style="margin-top:1.4rem;">
+      <!-- Book 1 -->
+      <article class="card book">
+        <a class="book__cover" href="{{ '/tales/begin/' | relative_url }}">
+          <img src="{{ '/assets/images/books/book-1.jpg' | relative_url }}" alt="Pirate Tales Book 1 cover">
+        </a>
+        <div class="card__body">
+          <h3 class="card__title">Pirate Tales — Book I</h3>
+          <p class="card__meta">The Captain’s Curse</p>
+          <p>Treasure maps lie. Oaths bleed. And the sea keeps receipts.</p>
+          <div style="margin-top:1rem;">
+            <a class="btn btn--gold" href="{{ '/tales/begin/' | relative_url }}">Start</a>
+            <a class="btn" href="{{ '/tales/' | relative_url }}">Details</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Book 2 -->
+      <article class="card book">
+        <a class="book__cover" href="{{ '/tales/' | relative_url }}">
+          <img src="{{ '/assets/images/books/book-2.jpg' | relative_url }}" alt="Pirate Tales Book 2 cover">
+        </a>
+        <div class="card__body">
+          <h3 class="card__title">Pirate Tales — Book II</h3>
+          <p class="card__meta">Islas de Los Muertos</p>
+          <p>Fog, prophecies, and something ancient beneath the keel.</p>
+          <div style="margin-top:1rem;">
+            <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Read</a>
+            <a class="btn" href="{{ '/tales/' | relative_url }}">Details</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Book 3 -->
+      <article class="card book">
+        <a class="book__cover" href="{{ '/tales/' | relative_url }}">
+          <img src="{{ '/assets/images/books/book-3.jpg' | relative_url }}" alt="Pirate Tales Book 3 cover">
+        </a>
+        <div class="card__body">
+          <h3 class="card__title">Pirate Tales — Book III</h3>
+          <p class="card__meta">Saint Domingue Intrigue</p>
+          <p>Silk curtains, colonial knives, and love that burns empires.</p>
+          <div style="margin-top:1rem;">
+            <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Read</a>
+            <a class="btn" href="{{ '/tales/' | relative_url }}">Details</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
