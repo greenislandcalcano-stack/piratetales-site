@@ -228,3 +228,63 @@ body{
   font-size:1.15rem;
   max-width: 620px;
 }
+/* === Subtle ocean motion (hero) === */
+.hero--pirate{
+  background-attachment: fixed; /* desktop parallax feel */
+  animation: hero-drift 18s ease-in-out infinite;
+}
+
+/* Movimiento lento del encuadre */
+@keyframes hero-drift{
+  0%   { background-position: 20% 40%; }
+  50%  { background-position: 28% 46%; }
+  100% { background-position: 20% 40%; }
+}
+
+/* “Bruma” viva (pseudo layer) */
+.hero--pirate::after{
+  animation: fog-swell 10s ease-in-out infinite;
+}
+
+@keyframes fog-swell{
+  0%   { opacity: .45; transform: translateY(0) scale(1); }
+  50%  { opacity: .65; transform: translateY(-10px) scale(1.02); }
+  100% { opacity: .45; transform: translateY(0) scale(1); }
+}
+
+/* Respeta a quien no quiere animaciones */
+@media (prefers-reduced-motion: reduce){
+  .hero--pirate{ animation: none; background-attachment: scroll; }
+  .hero--pirate::after{ animation: none; }
+}
+/* === Mobile tuning === */
+@media (max-width: 860px){
+  .hero--pirate{
+    min-height: 78vh;
+    background-attachment: scroll;
+    background-position: 55% 35%; /* mueve el encuadre para que el pirata luzca */
+  }
+
+  .hero__content{
+    max-width: 92%;
+  }
+
+  .hero__lead{
+    font-size: 1.05rem;
+  }
+
+  /* H1 grande pero controlado */
+  .hero--pirate h1{
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+}
+.hero__content{
+  padding: 1.2rem 1.25rem;
+  border-radius: 18px;
+  background: rgba(0,0,0,.18);
+  border: 1px solid rgba(255,255,255,.10);
+  backdrop-filter: blur(8px);
+}
+@media (max-width: 860px){
+  .hero__content{ padding: 1rem 1rem; }
+}
