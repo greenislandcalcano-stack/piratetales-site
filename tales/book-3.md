@@ -13,7 +13,7 @@ permalink: /tales/book-3/
     <div class="grid grid--2" style="margin-top:1.4rem; align-items:start;">
       <div>
         <img
-          src="{{ '/assets/images/books/dagger-in-neck.png' | relative_url }}"
+          src="{{ '/assets/images/book-3.jpg' | relative_url }}"
           alt="Book III — The Assault of Saint Domingue cover"
           style="width:100%; max-width:420px; border-radius:14px; box-shadow:0 20px 40px rgba(0,0,0,.55);"
         >
