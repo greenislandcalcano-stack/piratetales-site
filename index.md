@@ -33,28 +33,28 @@ permalink: /
     <div class="grid grid--4">
       <!-- Book I -->
       <article class="book-card">
-        <img src="{{ '/assets/images/books/the-secret-treasure.png' | relative_url }}" alt="The Secret Treasure cover">
+        <img src="{{ '/assets/images/books/the-secret-treasure.png' | relative_url }}" alt="the-secret-treasure.png">
         <h3>Book I</h3>
         <p class="book-card__title">The Secret Treasure</p>
       </article>
 
       <!-- Book II -->
       <article class="book-card">
-        <img src="{{ '/assets/images/books/islas-de-los-muertos.png' | relative_url }}" alt="Islas de los Muertos cover">
+        <img src="{{ '/assets/images/books/islas-de-los-muertos.png' | relative_url }}" alt="islas-de-los-muertos.png">
         <h3>Book II</h3>
         <p class="book-card__title">Islas de los Muertos</p>
       </article>
 
       <!-- Book III -->
       <article class="book-card">
-        <img src="{{ '/assets/images/books/dagger-in-neck.png' | relative_url }}" alt="The Assault of Saint Domingue cover">
+        <img src="{{ '/assets/images/books/dagger-in-neck.png' | relative_url }}" alt="dagger-in-neck.png">
         <h3>Book III</h3>
         <p class="book-card__title">The Assault of Saint Domingue</p>
       </article>
 
       <!-- Book IV -->
       <article class="book-card">
-        <img src="{{ '/assets/images/books/captain-curse.png' | relative_url }}" alt="The Captain’s Curse cover">
+        <img src="{{ '/assets/images/books/captain-curse.png' | relative_url }}" alt="captain-curse.png">
         <h3>Book IV</h3>
         <p class="book-card__title">The Captain’s Curse</p>
       </article>
