@@ -378,3 +378,56 @@ body{
     </div>
   </div>
 </section>
+.section--books{
+  padding: 6rem 0;
+}
+
+.section__title{
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  margin-bottom: .5rem;
+}
+
+.section__intro{
+  opacity:.75;
+  max-width: 520px;
+}
+
+.grid--4{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap:2rem;
+  margin-top:3rem;
+}
+
+.book-card{
+  text-align:center;
+  transition: transform .25s ease;
+}
+
+.book-card img{
+  width:100%;
+  aspect-ratio: 3/4;
+  object-fit:cover;
+  border-radius: 6px;
+  box-shadow:
+    0 20px 40px rgba(0,0,0,.55);
+  transition: transform .35s ease, box-shadow .35s ease;
+}
+
+.book-card:hover img{
+  transform: translateY(-8px) scale(1.03);
+  box-shadow:
+    0 35px 80px rgba(0,0,0,.75);
+}
+
+.book-card h3{
+  margin-top:1rem;
+  font-size:.85rem;
+  letter-spacing:.12em;
+  opacity:.6;
+}
+
+.book-card__title{
+  font-size:1.05rem;
+  margin-top:.25rem;
+}
