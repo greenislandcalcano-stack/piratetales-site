@@ -31,7 +31,7 @@ permalink: /tales/begin/
 
           <div>
             <img
-              src="{{ '/assets/images/books/secret-treasure.png' | relative_url }}"
+              src="{{ '/assets/images/book-1.jpg' | relative_url }}"
               alt="Book I — The Secret Treasure cover"
               style="width:100%; max-width:340px; border-radius:12px; box-shadow:0 20px 40px rgba(0,0,0,.55);"
             >
