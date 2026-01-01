@@ -23,7 +23,9 @@ permalink: /
     </div>
   </div>
 </section>
-<section id="books" class="section section--books">
+
+<!-- SAGA / BOOK COVERS -->
+<section id="saga" class="section section--books">
   <div class="container">
     <h2 class="section__title">The Saga</h2>
     <p class="section__intro">
@@ -33,31 +35,44 @@ permalink: /
     <div class="grid grid--4">
       <!-- Book I -->
       <article class="book-card">
-        <img src="{{ '/assets/images/books/the-secret-treasure.png' | relative_url }}" alt="the-secret-treasure.png">
+        <a href="{{ '/tales/book-1/' | relative_url }}" aria-label="Open Book I: The Secret Treasure">
+          <img src="{{ '/assets/images/books/the-secret-treasure.png' | relative_url }}" alt="Pirate Tales — Book I: The Secret Treasure cover">
+        </a>
         <h3>Book I</h3>
         <p class="book-card__title">The Secret Treasure</p>
       </article>
 
       <!-- Book II -->
       <article class="book-card">
-        <img src="{{ '/assets/images/books/islas-de-los-muertos.png' | relative_url }}" alt="islas-de-los-muertos.png">
+        <a href="{{ '/tales/book-2/' | relative_url }}" aria-label="Open Book II: Islas de los Muertos">
+          <img src="{{ '/assets/images/books/islas-de-los-muertos.png' | relative_url }}" alt="Pirate Tales — Book II: Islas de los Muertos cover">
+        </a>
         <h3>Book II</h3>
         <p class="book-card__title">Islas de los Muertos</p>
       </article>
 
       <!-- Book III -->
       <article class="book-card">
-        <img src="{{ '/assets/images/books/dagger-in-neck.png' | relative_url }}" alt="dagger-in-neck.png">
+        <a href="{{ '/tales/book-3/' | relative_url }}" aria-label="Open Book III: The Assault of Saint Domingue">
+          <img src="{{ '/assets/images/books/dagger-in-neck.png' | relative_url }}" alt="Pirate Tales — Book III: The Assault of Saint Domingue cover">
+        </a>
         <h3>Book III</h3>
         <p class="book-card__title">The Assault of Saint Domingue</p>
       </article>
 
       <!-- Book IV -->
       <article class="book-card">
-        <img src="{{ '/assets/images/books/captain-curse.png' | relative_url }}" alt="captain-curse.png">
+        <a href="{{ '/tales/book-4/' | relative_url }}" aria-label="Open Book IV: The Captain’s Curse">
+          <img src="{{ '/assets/images/books/captain-curse.png' | relative_url }}" alt="Pirate Tales — Book IV: The Captain’s Curse cover">
+        </a>
         <h3>Book IV</h3>
         <p class="book-card__title">The Captain’s Curse</p>
       </article>
+    </div>
+
+    <div style="margin-top:1.6rem; display:flex; gap:.8rem; flex-wrap:wrap;">
+      <a class="btn btn--gold" href="{{ '/tales/begin/' | relative_url }}">Start Here</a>
+      <a class="btn" href="{{ '/tales/' | relative_url }}">The Tales Library</a>
     </div>
   </div>
 </section>
@@ -87,42 +102,42 @@ permalink: /
     <div class="grid grid--3" style="margin-top:1.4rem;">
       <article class="card">
         <div class="card__body">
-          <h3 class="card__title">The Captain’s Curse</h3>
-          <p class="card__meta">Blood oaths • Haunted charts • A legacy that refuses to sink</p>
+          <h3 class="card__title">The Secret Treasure</h3>
+          <p class="card__meta">Anacaonex • Caonex • Oaths • Maps that lie</p>
           <p>
-            A captain’s past rises from the abyss, and every clue demands a price. Treasure is never just gold—it’s a sentence.
+            A hunt begins with a map that should not exist—and a treasure that demands a price beyond gold.
           </p>
           <div style="margin-top:1rem;">
-            <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Explore</a>
-            <a class="btn" href="{{ '/tales/begin/' | relative_url }}">Start</a>
+            <a class="btn btn--gold" href="{{ '/tales/book-1/' | relative_url }}">Open Book I</a>
+            <a class="btn" href="{{ '/tales/begin/' | relative_url }}">Start Here</a>
           </div>
         </div>
       </article>
 
       <article class="card">
         <div class="card__body">
-          <h3 class="card__title">Islas de Los Muertos</h3>
-          <p class="card__meta">Forbidden island • Sea creatures • Witchcraft & prophecy</p>
+          <h3 class="card__title">Islas de los Muertos</h3>
+          <p class="card__meta">Forbidden island • Fog • Witchcraft & prophecy</p>
           <p>
-            The ocean keeps its secrets… until it chooses a witness. Something ancient watches the coastline—and it knows your name.
+            An island erased from charts waits in the mist—where the dead are not always silent.
           </p>
           <div style="margin-top:1rem;">
-            <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Enter</a>
-            <a class="btn" href="{{ '/tales/' | relative_url }}">Details</a>
+            <a class="btn btn--gold" href="{{ '/tales/book-2/' | relative_url }}">Open Book II</a>
+            <a class="btn" href="{{ '/tales/' | relative_url }}">Library</a>
           </div>
         </div>
       </article>
 
       <article class="card">
         <div class="card__body">
-          <h3 class="card__title">Saint Domingue Intrigue</h3>
-          <p class="card__meta">Colonial court • Betrayals • Romance & politics</p>
+          <h3 class="card__title">The Assault of Saint Domingue</h3>
+          <p class="card__meta">Tunnels • Betrayal • Love as a weapon</p>
           <p>
-            Behind silk curtains and polished smiles, knives travel faster than rumors. One alliance could save you—or bury you.
+            Saint Domingue shines above ground—but the real war is decided in darkness beneath the city.
           </p>
           <div style="margin-top:1rem;">
-            <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Enter</a>
-            <a class="btn" href="{{ '/tales/' | relative_url }}">Details</a>
+            <a class="btn btn--gold" href="{{ '/tales/book-3/' | relative_url }}">Open Book III</a>
+            <a class="btn" href="{{ '/tales/' | relative_url }}">Library</a>
           </div>
         </div>
       </article>
@@ -166,62 +181,6 @@ permalink: /
     <div style="margin-top:1.6rem;">
       <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Read the Tales</a>
       <a class="btn" href="{{ '/tales/begin/' | relative_url }}">Begin the Journey</a>
-    </div>
-  </div>
-</section>
-<section id="books" class="section">
-  <div class="container">
-    <h2>The Books</h2>
-    <p>Three volumes. One living universe. Start anywhere—if you dare.</p>
-
-    <div class="grid grid--3" style="margin-top:1.4rem;">
-      <!-- Book 1 -->
-      <article class="card book">
-        <a class="book__cover" href="{{ '/tales/begin/' | relative_url }}">
-          <img src="{{ '/assets/images/books/book-1.jpg' | relative_url }}" alt="Pirate Tales Book 1 cover">
-        </a>
-        <div class="card__body">
-          <h3 class="card__title">Pirate Tales — Book I</h3>
-          <p class="card__meta">The Captain’s Curse</p>
-          <p>Treasure maps lie. Oaths bleed. And the sea keeps receipts.</p>
-          <div style="margin-top:1rem;">
-            <a class="btn btn--gold" href="{{ '/tales/begin/' | relative_url }}">Start</a>
-            <a class="btn" href="{{ '/tales/' | relative_url }}">Details</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Book 2 -->
-      <article class="card book">
-        <a class="book__cover" href="{{ '/tales/' | relative_url }}">
-          <img src="{{ '/assets/images/books/book-2.jpg' | relative_url }}" alt="Pirate Tales Book 2 cover">
-        </a>
-        <div class="card__body">
-          <h3 class="card__title">Pirate Tales — Book II</h3>
-          <p class="card__meta">Islas de Los Muertos</p>
-          <p>Fog, prophecies, and something ancient beneath the keel.</p>
-          <div style="margin-top:1rem;">
-            <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Read</a>
-            <a class="btn" href="{{ '/tales/' | relative_url }}">Details</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Book 3 -->
-      <article class="card book">
-        <a class="book__cover" href="{{ '/tales/' | relative_url }}">
-          <img src="{{ '/assets/images/books/book-3.jpg' | relative_url }}" alt="Pirate Tales Book 3 cover">
-        </a>
-        <div class="card__body">
-          <h3 class="card__title">Pirate Tales — Book III</h3>
-          <p class="card__meta">Saint Domingue Intrigue</p>
-          <p>Silk curtains, colonial knives, and love that burns empires.</p>
-          <div style="margin-top:1rem;">
-            <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Read</a>
-            <a class="btn" href="{{ '/tales/' | relative_url }}">Details</a>
-          </div>
-        </div>
-      </article>
     </div>
   </div>
 </section>
