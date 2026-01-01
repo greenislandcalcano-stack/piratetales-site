@@ -340,3 +340,41 @@ body{
 .book:hover .book__cover img{
   transform: scale(1.06);
 }
+<section id="books" class="section section--books">
+  <div class="container">
+    <h2 class="section__title">The Saga</h2>
+    <p class="section__intro">
+      Four books. One cursed sea. Every legend has a price.
+    </p>
+
+    <div class="grid grid--4">
+      <!-- Book I -->
+      <article class="book-card">
+        <img src="{{ '/assets/images/books/book-1-secret-treasure.jpg' | relative_url }}" alt="The Secret Treasure cover">
+        <h3>Book I</h3>
+        <p class="book-card__title">The Secret Treasure</p>
+      </article>
+
+      <!-- Book II -->
+      <article class="book-card">
+        <img src="{{ '/assets/images/books/book-2-islas-muertos.jpg' | relative_url }}" alt="Islas de los Muertos cover">
+        <h3>Book II</h3>
+        <p class="book-card__title">Islas de los Muertos</p>
+      </article>
+
+      <!-- Book III -->
+      <article class="book-card">
+        <img src="{{ '/assets/images/books/book-3-saint-domingue.jpg' | relative_url }}" alt="The Assault of Saint Domingue cover">
+        <h3>Book III</h3>
+        <p class="book-card__title">The Assault of Saint Domingue</p>
+      </article>
+
+      <!-- Book IV -->
+      <article class="book-card">
+        <img src="{{ '/assets/images/books/book-4-captains-curse.jpg' | relative_url }}" alt="The Captain’s Curse cover">
+        <h3>Book IV</h3>
+        <p class="book-card__title">The Captain’s Curse</p>
+      </article>
+    </div>
+  </div>
+</section>
