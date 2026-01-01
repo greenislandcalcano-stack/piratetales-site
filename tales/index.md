@@ -26,7 +26,7 @@ permalink: /tales/
 
       <article class="book-card">
         <a href="{{ '/tales/book-2/' | relative_url }}">
-          <img src="{{ '/assets/images/books/book-2-islas-muertos.jpg' | relative_url }}" alt="Pirate Tales Book II — Islas de los Muertos cover">
+          <img src="{{ '/assets/images/books/islas-de-los-muertos.png' | relative_url }}" alt="Pirate Tales Book II — Islas de los Muertos cover">
         </a>
         <h3>Book II</h3>
         <p class="book-card__title">Islas de los Muertos</p>
@@ -38,7 +38,7 @@ permalink: /tales/
 
       <article class="book-card">
         <a href="{{ '/tales/book-3/' | relative_url }}">
-          <img src="{{ '/assets/images/books/book-3-saint-domingue.jpg' | relative_url }}" alt="Pirate Tales Book III — The Assault of Saint Domingue cover">
+          <img src="{{ '/assets/images/books/dagger-in-neck.png' | relative_url }}" alt="Pirate Tales Book III — The Assault of Saint Domingue cover">
         </a>
         <h3>Book III</h3>
         <p class="book-card__title">The Assault of Saint Domingue</p>
@@ -50,7 +50,7 @@ permalink: /tales/
 
       <article class="book-card">
         <a href="{{ '/tales/book-4/' | relative_url }}">
-          <img src="{{ '/assets/images/books/book-4-captains-curse.jpg' | relative_url }}" alt="Pirate Tales Book IV — The Captain’s Curse cover">
+          <img src="{{ '/assets/images/books/captain-curse.png' | relative_url }}" alt="Pirate Tales Book IV — The Captain’s Curse cover">
         </a>
         <h3>Book IV</h3>
         <p class="book-card__title">The Captain’s Curse</p>
