@@ -23,6 +23,44 @@ permalink: /
     </div>
   </div>
 </section>
+<section id="books" class="section section--books">
+  <div class="container">
+    <h2 class="section__title">The Saga</h2>
+    <p class="section__intro">
+      Four books. One cursed sea. Every legend has a price.
+    </p>
+
+    <div class="grid grid--4">
+      <!-- Book I -->
+      <article class="book-card">
+        <img src="{{ '/assets/images/books/the-secret-treasure.png' | relative_url }}" alt="The Secret Treasure cover">
+        <h3>Book I</h3>
+        <p class="book-card__title">The Secret Treasure</p>
+      </article>
+
+      <!-- Book II -->
+      <article class="book-card">
+        <img src="{{ '/assets/images/books/islas-de-los-muertos.png' | relative_url }}" alt="Islas de los Muertos cover">
+        <h3>Book II</h3>
+        <p class="book-card__title">Islas de los Muertos</p>
+      </article>
+
+      <!-- Book III -->
+      <article class="book-card">
+        <img src="{{ '/assets/images/books/dagger-in-neck.png' | relative_url }}" alt="The Assault of Saint Domingue cover">
+        <h3>Book III</h3>
+        <p class="book-card__title">The Assault of Saint Domingue</p>
+      </article>
+
+      <!-- Book IV -->
+      <article class="book-card">
+        <img src="{{ '/assets/images/books/captain-curse.png' | relative_url }}" alt="The Captain’s Curse cover">
+        <h3>Book IV</h3>
+        <p class="book-card__title">The Captain’s Curse</p>
+      </article>
+    </div>
+  </div>
+</section>
 
 <section id="highlights" class="section">
   <div class="container">
