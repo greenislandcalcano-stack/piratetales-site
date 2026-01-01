@@ -32,7 +32,8 @@ permalink: /tales/book-2/
         </p>
 
         <div style="margin-top:1rem;">
-          <a class="btn btn--gold" href="{{ '/tales/begin/' | relative_url }}">Reading Order</a>
-          <a class="btn" href="{{ '/tales/' | relative_url }}">All Books</a>
-          <a class="btn" href="{{ '
-
+  <a class="btn btn--gold" href="{{ '/tales/begin/' | relative_url }}">Reading Order</a>
+  <a class="btn" href="{{ '/tales/' | relative_url }}">All Books</a>
+  <a class="btn" href="{{ '/tales/book-1/' | relative_url }}">Prev: Book I</a>
+  <a class="btn" href="{{ '/tales/book-3/' | relative_url }}">Next: Book III</a>
+</div>
