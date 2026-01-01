@@ -12,7 +12,7 @@ A living universe of legends, lost seas, and untold destinies.
 - [Begin the First Tale]({{ '/tales/begin/' | relative_url }})
 <section class="hero hero--pirate">
   <div class="hero__overlay"></div>
-
+  <div class="wreck-light"></div>
   <div class="container hero__content">
     <p class="hero__kicker">Pirate Tales • Saga & Chronicles</p>
 
