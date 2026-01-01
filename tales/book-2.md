@@ -30,6 +30,17 @@ permalink: /tales/book-2/
           As Caonex and his allies unravel the island’s secrets, they discover that the
           dead are not always silent—and the sea never forgets a debt.
         </p>
+<div style="margin-top:1rem;">
+  <a class="btn btn--gold"
+     href="https://www.amazon.com/dp/B0FD919TZ4"
+     target="_blank"
+     rel="noopener noreferrer">
+    Buy on Amazon
+  </a>
+
+  <a class="btn" href="{{ '/tales/' | relative_url }}">All Books</a>
+  <a class="btn" href="{{ '/tales/book-1/' | relative_url }}">Prev: Book I</a>
+</div>
 
         <div style="margin-top:1rem;">
   <a class="btn btn--gold" href="{{ '/tales/begin/' | relative_url }}">Reading Order</a>
