@@ -15,7 +15,13 @@ permalink: /
 
     <p class="hero__lead">
      A saga of colonial intrigue, haunted seas, and legacies that return with the tide.
-    </p>
+    </p><a class="btn btn--gold"
+   href="PASTE_AMAZON_URL_HERE"
+   target="_blank"
+   rel="noopener noreferrer">
+  Buy on Amazon
+</a>
+
 
     <div class="hero__cta">
       <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Explore Saga</a>
