@@ -323,3 +323,20 @@ body{
   font-size: 1.25rem;
   letter-spacing: .2px;
 }
+.book__cover{
+  display:block;
+  aspect-ratio: 3 / 4;
+  overflow:hidden;
+  border-bottom: 1px solid rgba(243,239,230,.12);
+}
+.book__cover img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  display:block;
+  transform: scale(1.02);
+  transition: transform .22s ease;
+}
+.book:hover .book__cover img{
+  transform: scale(1.06);
+}
