@@ -407,12 +407,17 @@ body{
 .book-card img{
   width:100%;
   aspect-ratio: 3 / 4;
-  object-fit:cover;
+  object-fit: cover;
+
+  /* 🔑 FIX: preserve top content */
+  object-position: top center;
+
   border-radius: 6px;
   box-shadow:
     0 20px 40px rgba(0,0,0,.55);
   transition: transform .35s ease, box-shadow .35s ease;
 }
+
 
 .book-card:hover img{
   transform: translateY(-8px) scale(1.03);
