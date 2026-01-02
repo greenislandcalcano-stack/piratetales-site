@@ -440,3 +440,4 @@ body{
   transform: translateY(-6px) scale(1.03);
   object-position: center;
 }
+html { scroll-behavior: smooth; }
