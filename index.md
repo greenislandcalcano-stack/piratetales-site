@@ -15,10 +15,20 @@ permalink: /
 
     <p class="hero__lead">
      A saga of colonial intrigue, haunted seas, and legacies that return with the tide.
-    </p><a class="btn btn--gold"
-   href="https://www.amazon.com/Pirate-Tales-Treasure-Elvis-Calcano-ebook/dp/B0FDFHWK8L/ref=sr_1_2?crid=RJ3LILV5V9OZ&dib=eyJ2IjoiMSJ9.FDwOvDm8rZI1Olr4Piokv6oIIfVKhbfe8CCrfvsUJADGjHj071QN20LucGBJIEps.Xxu11eFsLNS5b_p-lmSv46SOVdJgGxDT0ac7e6gG2EQ&dib_tag=se&keywords=elvis+calcano&qid=1767304350&sprefix=elvis+calcano%2Caps%2C189&sr=8-2"
-   target="_blank"
-   rel="noopener noreferrer">
+    </p><a class="btn btn--gold"<section id="buy" class="section">
+  <div class="container" style="text-align:center;">
+    <h2>Get the Full Novel</h2>
+    <p class="muted">Available now on Amazon.</p>
+
+    <a class="btn btn--gold"
+       href="https://www.amazon.com/dp/B0FDFHWK8L"
+       target="_blank"
+       rel="noopener noreferrer">
+      Buy on Amazon
+    </a>
+  </div>
+</section>
+
   Buy on Amazon
 </a>
 
