@@ -133,6 +133,19 @@ permalink: /
           </div>
         </div>
       </article>
+<section id="buy" class="section">
+  <div class="container" style="text-align:center;">
+    <h2>Continue the Saga</h2>
+    <p class="muted">Available now on Amazon.</p>
+
+    <a class="btn btn--gold"
+       href="https://www.amazon.com/dp/B0FD919TZ4"
+       target="_blank"
+       rel="noopener noreferrer">
+      Buy on Amazon
+    </a>
+  </div>
+</section>
 
       <article class="card">
         <div class="card__body">
