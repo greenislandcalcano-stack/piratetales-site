@@ -1,8 +1,11 @@
 ---
-layout: default
+layout: book
 title: "Book IV — The Captain’s Curse"
 permalink: /tales/book-4/
+hero_bg: /assets/images/bg/book-4-hero.webp
+tagline: "Every oath has a price. Every captain leaves a ghost behind."
 ---
+
 
 <section class="section">
   <div class="container">
