@@ -1,8 +1,12 @@
 ---
-layout: default
+layout: book
 title: "Book II — Islas de los Muertos"
 permalink: /tales/book-2/
+hero_bg: /assets/images/bg/book-2-hero.webp
+tagline: "A forbidden island erased from charts where the dead are not silent."
+amazon_url: https://www.amazon.com/dp/B0FD919TZ4
 ---
+
 
 <section class="section">
   <div class="container">
