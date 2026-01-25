@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Welcome
+title: Pirate Tales — Saga & Chronicles
 permalink: /
+description: A saga of colonial intrigue, haunted seas, cursed oceans, and lost treasure. Explore Pirate Tales and begin the journey.
 ---
 
 <section class="hero hero--pirate">
@@ -192,4 +193,40 @@ permalink: /
 
 <section class="section">
   <div class="container">
-    <h2>Meet the Legends</h
+    <h2>Meet the Legends</h2>
+    <p>
+      Not heroes. Not villains. Survivors with sharp tongues, haunted loyalties, and storms in their eyes.
+    </p>
+
+    <div class="grid grid--2" style="margin-top:1.4rem;">
+      <article class="card"><div class="card__body">
+        <h3 class="card__title">Caonex</h3>
+        <p class="card__meta">A strategist with a price on his name</p>
+        <p>A man who negotiates like a priest and fights like a devil. Every deal he makes leaves a shadow behind.</p>
+      </div></article>
+
+      <article class="card"><div class="card__body">
+        <h3 class="card__title">Sebastien “Sebas” Alexi</h3>
+        <p class="card__meta">The calm blade of the Black Wood</p>
+        <p>He speaks softly because he doesn’t need to raise his voice. When he moves, ships listen.</p>
+      </div></article>
+
+      <article class="card"><div class="card__body">
+        <h3 class="card__title">Rufo</h3>
+        <p class="card__meta">A wild laugh in the middle of gunpowder</p>
+        <p>The funniest man on deck… until the moment you realize the joke is usually a warning.</p>
+      </div></article>
+
+      <article class="card"><div class="card__body">
+        <h3 class="card__title">Lulue</h3>
+        <p class="card__meta">Charm, silk… and a hidden agenda</p>
+        <p>She smiles like salvation and plans like a revolution. In her story, love is never harmless.</p>
+      </div></article>
+    </div>
+
+    <div style="margin-top:1.6rem; display:flex; gap:.8rem; flex-wrap:wrap;">
+      <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Read the Tales</a>
+      <a class="btn" href="{{ '/tales/begin/' | relative_url }}">Begin the Journey</a>
+    </div>
+  </div>
+</section>
