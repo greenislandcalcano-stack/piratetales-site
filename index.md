@@ -31,6 +31,9 @@ description: A saga of colonial intrigue, haunted seas, cursed oceans, and lost 
     </div>
   </div>
 </section>
+<p class="seo-text" style="display:none;">
+Pirate Tales is a pirate fantasy book series blending historical fiction, supernatural legends, cursed seas, Caribbean adventure, and colonial intrigue. Follow Caonex, Sebas, and their crew through haunted oceans, lost treasure maps, and epic battles.
+</p>
 
 <!-- SAGA / BOOK COVERS -->
 <section id="saga" class="section section--books">
