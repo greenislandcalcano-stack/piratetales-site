@@ -39,7 +39,7 @@ permalink: /
       Four books. One cursed sea. Every legend has a price.
     </p>
 
-    <div class="grid grid--4">
+    <div class="grid grid--2">
       <!-- Book I -->
       <article class="book-card">
         <a href="{{ '/tales/book-1/' | relative_url }}" aria-label="Open Book I: The Secret Treasure">
