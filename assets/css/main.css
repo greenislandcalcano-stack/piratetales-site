@@ -465,7 +465,7 @@ html { scroll-behavior: smooth; }
   min-height: 56vh;
   display: flex;
   align-items: flex-end;
-  background-size: cover;
+  background-size: 90%;
   background-position: center;
   border-radius: 18px;
   overflow: hidden;
@@ -534,7 +534,7 @@ html { scroll-behavior: smooth; }
   inset: 0;
 
   background-image: inherit;
-  background-size: cover;
+  background-size: 90%;
   background-position: center 30%;
 
   transform: scale(1.12);
