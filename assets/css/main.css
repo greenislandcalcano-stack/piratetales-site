@@ -535,7 +535,7 @@ html { scroll-behavior: smooth; }
 
   background-image: inherit;
   background-size: cover;
-  background-position: center;
+  background-position: 70% center;
 
   transform: scale(1.12);
   animation: slowDrift 45s ease-in-out infinite alternate;
