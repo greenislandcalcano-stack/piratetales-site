@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% if page.hero_bg %}
+<section class="book-hero" style="background-image:url('{{ page.hero_bg | relative_url }}');">
+  <div class="book-hero__overlay"></div>
+  <div class="container book-hero__content">
+    <p class="book-hero__kicker">Pirate Tales • Book Landing</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.tagline %}
+      <p class="book-hero__tagline">{{ page.tagline }}</p>
+    {% endif %}
+
+    {% if page.amazon_url %}
+      <div class="book-hero__cta">
+        <a class="btn btn--gold" href="{{ page.amazon_url }}" target="_blank" rel="noopener noreferrer">
+          Buy on Amazon
+        </a>
+        <a class="btn" href="{{ '/tales/' | relative_url }}">Back to The Tales</a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+<main class="container">
+  {{ content }}
+</main>
