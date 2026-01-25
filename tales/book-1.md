@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: book
 title: "Book I — The Secret Treasure"
 permalink: /tales/book-1/
+hero_bg: /assets/images/bg/book-1-hero.webp
+tagline: "Maps betray. Gold whispers. Every alliance has teeth."
+amazon_url: https://www.amazon.com/dp/B0FDFHWK8L
 ---
 
 <section class="section">
