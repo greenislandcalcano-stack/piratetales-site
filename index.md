@@ -13,27 +13,22 @@ permalink: /
 
     <h1>Pirates. Prophecies.<br>Blood Oaths.</h1>
 
-    <p class="hero__lead">
-     A saga of colonial intrigue, haunted seas, and legacies that return with the tide.
-    </p><a class="btn btn--gold"<section id="buy" class="section">
-  <div class="container" style="text-align:center;">
-    <h2>Get the Full Novel</h2>
-    <p class="muted">Available now on Amazon.</p>
+<p class="hero__lead">
+  A saga of colonial intrigue, haunted seas, and legacies that return with the tide.
+</p>
 
-    <a class="btn btn--gold"
-       href="https://www.amazon.com/dp/B0FDFHWK8L"
-       target="_blank"
-       rel="noopener noreferrer">
-      Buy on Amazon
-    </a>
-  </div>
-</section>
+<div class="hero__cta">
+  <a class="btn btn--gold"
+     href="https://www.amazon.com/dp/B0FDFHWK8L"
+     target="_blank"
+     rel="noopener noreferrer">
+    Buy Book I on Amazon
+  </a>
 
-  Buy on Amazon
-</a>
+  <a class="btn" href="{{ '/tales/begin/' | relative_url }}">Start the Story</a>
+  <a class="btn" href="{{ '/tales/' | relative_url }}">Explore Saga</a>
+</div>
 
-
-    <div class="hero__cta">
       <a class="btn btn--gold" href="{{ '/tales/' | relative_url }}">Explore Saga</a>
       <a class="btn" href="{{ '/tales/begin/' | relative_url }}">Start the Story</a>
     </div>
