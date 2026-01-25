@@ -11,8 +11,8 @@ permalink: /
   <div class="container hero__content">
     <p class="hero__kicker">Pirate Tales • Saga & Chronicles</p>
 
-    <h1>Pirates. Prophecies.<br>Blood Oaths.</h--
->
+    <h1>Pirates. Prophecies.<br>Blood Oaths.</h1>
+
     <p class="hero__lead">
       A saga of colonial intrigue, haunted seas, and legacies that return with the tide.
     </p>
