@@ -8,9 +8,6 @@ tagline: "Power, betrayal, and blades in the dark."
 
 <section class="section">
   <div class="container">
-    <h1>Book III — The Assault of Saint Domingue</h1>
-    <p class="muted">Power, betrayal, and blades in the dark.</p>
-
     <div class="grid grid--2" style="margin-top:1.4rem; align-items:start;">
       <div>
         <img
