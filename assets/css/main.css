@@ -58,6 +58,25 @@ p{color:var(--muted); margin:.7rem 0;}
 @media (min-width: 860px){
   .grid--3{grid-template-columns: repeat(3, 1fr);}
   .grid--2{grid-template-columns: repeat(2, 1fr);}
+  .grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+/* Mobile: 1 columna para que no se aplaste */
+@media (max-width: 720px) {
+  .grid--2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Asegura que las portadas no se deformen */
+.book-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 }
 
 .card{
