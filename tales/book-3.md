@@ -1,9 +1,12 @@
 
 ---
-layout: default
+layout: book
 title: "Book III — The Assault of Saint Domingue"
 permalink: /tales/book-3/
+hero_bg: /assets/images/bg/book-3-hero.webp
+tagline: "Power, betrayal, and blades in the dark."
 ---
+
 
 <section class="section">
   <div class="container">
