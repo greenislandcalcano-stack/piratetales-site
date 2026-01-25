@@ -1,6 +1,6 @@
 ---
 layout: book
-title: "Book II — Islas de los Muertos"
+title: "Book II — Isla de los Muertos"
 permalink: /tales/book-2/
 hero_bg: /assets/images/bg/book-2-hero.webp
 tagline: "A forbidden island erased from charts where the dead are not silent."
@@ -10,14 +10,14 @@ amazon_url: https://www.amazon.com/dp/B0FD919TZ4
 
 <section class="section">
   <div class="container">
-    <h1>Book II — Islas de los Muertos</h1>
+    <h1>Book II — Isla de los Muertos</h1>
     <p class="muted">A forbidden island. A watching sea.</p>
 
     <div class="grid grid--2" style="margin-top:1.4rem; align-items:start;">
       <div>
         <img
           src="{{ '/assets/images/book-2.jpg' | relative_url }}"
-          alt="Book II — Islas de los Muertos cover"
+          alt="Book II — Isla de los Muertos cover"
           style="width:100%; max-width:420px; border-radius:14px; box-shadow:0 20px 40px rgba(0,0,0,.55);"
         >
       </div>
