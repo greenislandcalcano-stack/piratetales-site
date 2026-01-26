@@ -1,43 +1,56 @@
 ---
 layout: post
-title: "How I Built the World of Pirate Tales — From Notes to Oceans"
-description: A behind-the-scenes look at how the Pirate Tales universe was created, from maps and lore to characters like Sebas, Rufo, and Lulue.
-permalink: /blog/building-the-world/
+title: "Sneak Peek — The Night the Black Wood Refused to Sink"
+description: Read an exclusive Pirate Tales scene aboard the Black Wood as the cursed ship faces destruction in haunted waters.
+permalink: /blog/black-wood-scene/
 ---
 
-Every world begins with a question.
+The cannons had stopped.
 
-Mine was simple:
+Not because the British were out of powder.
 
-“What happens after the pirate legends end?”
+Because the fog had swallowed everything.
 
-Not the glory.
+Sebas stood at the bow, hand resting on the railing.
 
-Not the treasure.
+“Listen,” he said.
 
-But the survivors.
+“What?” Rufo whispered.
 
-The tired ones.
+“That’s the problem. Nothing.”
 
-The ones who carry ghosts.
+No waves.
 
-Pirate Tales grew from notebooks filled with:
-- broken maps
-- whispered prophecies
-- colonial politics
-- strange wood that shouldn’t float
-- characters who refuse to behave like heroes
+No wind.
 
-Sebas was born from silence.
+No birds.
 
-Rufo from laughter in gunpowder smoke.
+The sea was holding its breath.
 
-Lulue from charm hiding something dangerous.
+Then—
 
-Little by little, the ocean appeared.
+The hull creaked.
 
-And once the sea exists…
+Not like wood.
 
-Stories sail on their own.
+Like something alive.
 
-👉 Start the journey: [/tales/begin/]
+The Black Wood did not drift.
+
+It resisted.
+
+As if the ocean itself had tried to pull her down before…
+
+…and failed.
+
+“Captain,” Sebas murmured.
+
+“She doesn’t want to sink.”
+
+Behind them, Caonex smiled faintly.
+
+“Good,” he said.
+
+“Neither do we.”
+
+👉 Continue the saga on Amazon.
