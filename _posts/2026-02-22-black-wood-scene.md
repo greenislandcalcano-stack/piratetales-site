@@ -2,6 +2,7 @@
 layout: post
 title: "Sneak Peek — The Night the Black Wood Refused to Sink"
 description: Read an exclusive Pirate Tales scene aboard the Black Wood as the cursed ship faces destruction in haunted waters.
+image: /assets/images/book-1.jpg
 permalink: /blog/black-wood-scene/
 ---
 
