@@ -2,6 +2,7 @@
 layout: post
 title: "Meet Caonex — The Strategist Who Negotiates Like a Priest and Fights Like a Devil"
 description: Discover Caonex, the calculating antihero of the Pirate Tales saga — a pirate leader shaped by betrayal, maps that lie, and oceans that remember.
+image: /assets/images/book-1.jpg
 permalink: /blog/meet-caonex/
 ---
 
