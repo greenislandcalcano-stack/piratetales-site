@@ -2,6 +2,7 @@
 layout: post
 title: "The Real History Behind Pirate Tales — Caribbean Legends, Colonial Wars, and Lost Treasure"
 description: Pirate Tales blends real Caribbean pirate history with fantasy, haunted seas, and supernatural legends. Discover the true inspirations behind the saga.
+image: /assets/images/book-1.jpg
 permalink: /blog/history-behind-pirate-tales/
 ---
 
