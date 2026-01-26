@@ -2,6 +2,7 @@
 layout: post
 title: "Why Pirate Fantasy Still Captures Our Imagination"
 description: From cursed treasure to haunted oceans, pirate fantasy stories continue to thrill readers. Discover why Pirate Tales embraces this timeless genre.
+image: /assets/images/book-1.jpg
 permalink: /blog/why-pirate-fantasy/
 ---
 
