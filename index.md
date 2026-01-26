@@ -104,6 +104,8 @@ Pirate Tales is a pirate fantasy book series blending historical fiction, supern
         <p class="book-card__title">The Captain’s Curse</p>
       </article>
     </div>
+    
+<a class="btn" href="/blog/">Captain’s Log</a>
 
     <div style="margin-top:1.6rem; display:flex; gap:.8rem; flex-wrap:wrap;">
       <a class="btn btn--gold" href="{{ '/tales/begin/' | relative_url }}">Start Here</a>
