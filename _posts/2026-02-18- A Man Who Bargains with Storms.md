@@ -2,6 +2,7 @@
 layout: post
 title: "Canto I — Of the Man Who Bargains with Storms"
 description: A poetic meditation on Caonex, the quiet strategist of Pirate Tales, where leadership is illusion and destiny wears the face of the sea.
+image: /assets/images/book-1.jpg
 permalink: /blog/canto-caonex/
 ---
 
