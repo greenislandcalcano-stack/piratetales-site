@@ -2,6 +2,7 @@
 layout: post
 title: "Canto III — How the Ocean Was Drawn"
 description: A reflective, poetic look at how the world of Pirate Tales was created — from maps and ghosts to ships and survivors.
+image: /assets/images/book-1.jpg
 permalink: /blog/canto-how-the-ocean-was-drawn/
 ---
 
