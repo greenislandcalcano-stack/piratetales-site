@@ -2,6 +2,7 @@
 layout: post
 title: "Canto II — Of Empires, Fog, and Forgotten Islands"
 description: The historical and mythical roots of Pirate Tales, where Caribbean wars, vanished ships, and cursed waters blur the line between truth and legend.
+image: /assets/images/book-1.jpg
 permalink: /blog/canto-history-and-fog/
 ---
 
