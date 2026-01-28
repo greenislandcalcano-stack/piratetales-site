@@ -2,6 +2,7 @@
 layout: post
 title: "Canto I — The Lion and the Sea"
 description: A poetic meditation from the world of Pirate Tales, where fear, destiny, and the ocean wear the same face.
+image: /assets/images/book-1.jpg
 permalink: /blog/canto-the-lion-and-the-sea/
 ---
 
