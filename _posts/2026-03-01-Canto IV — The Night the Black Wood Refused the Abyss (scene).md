@@ -2,6 +2,7 @@
 layout: post
 title: "Canto IV — The Night the Black Wood Refused the Abyss"
 description: A poetic scene aboard the Black Wood as fog, fear, and fate surround the cursed ship in haunted waters.
+image: /assets/images/book-1.jpg
 permalink: /blog/canto-black-wood-night/
 ---
 
