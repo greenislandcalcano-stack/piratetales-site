@@ -30,7 +30,14 @@ tagline: "Power, betrayal, and blades in the dark."
           the line is between devotion and domination. The assault begins long before the
           first cannon fires.
         </p>
-
+<p>
+  <a class="btn btn--gold"
+     href="https://www.amazon.com/dp/B0FH48D171"
+     target="_blank"
+     rel="noopener noreferrer">
+    Buy Book III
+  </a>
+</p>
         <div style="margin-top:1rem;">
           <a class="btn btn--gold" href="{{ '/tales/begin/' | relative_url }}">Reading Order</a>
           <a class="btn" href="{{ '/tales/' | relative_url }}">All Books</a>
