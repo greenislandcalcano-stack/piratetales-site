@@ -16,8 +16,14 @@ description: ...
 <h1>Pirates. Prophecies.<br>Blood Oaths.</h1>
 
 <p class="hero__lead">
-  An epic Caribbean pirate fantasy saga of cursed seas, ancient Taíno mysteries,
-  colonial intrigue, supernatural legends, and lost treasure.
+  In the age of sail, when empires fought for the Caribbean and forgotten gods still whispered beneath the waves, a handful of unlikely heroes found themselves caught between history and legend.
+
+From cursed islands and haunted oceans to ancient Taíno secrets, ghost ships, hidden treasures, and battles that could reshape kingdoms, Pirate Tales Chronicles follows Taylor Smith, Caonex, Sebastien Alexi, Irene, Hula, and the legendary crew of the Black Wood through adventures where courage is tested, loyalty is forged, and every victory demands a price.
+
+Some legends are discovered.
+
+Others refuse to stay buried.
+
 </p>
 
 <div class="hero__cta">
