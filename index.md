@@ -30,6 +30,13 @@ description: Pirate Tales Chronicles is an epic Caribbean pirate fantasy saga of
   </a>
 
   <a class="btn"
+     href="https://www.amazon.com/dp/B0FH48D171"
+     target="_blank"
+     rel="noopener noreferrer">
+    Buy Book III
+  </a>
+
+  <a class="btn"
      href="https://www.amazon.com/dp/B0GX7RVXMM"
      target="_blank"
      rel="noopener noreferrer">
