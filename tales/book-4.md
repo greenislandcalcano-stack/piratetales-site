@@ -33,7 +33,14 @@ tagline: "Every oath has a price. Every captain leaves a ghost behind."
           As the saga bends back on itself, every choice made across the sea demands its
           final payment. Some curses end in gold. Others end in blood.
         </p>
-
+<p>
+  <a class="btn btn--gold"
+     href="https://www.amazon.com/dp/B0GX7RVXMM"
+     target="_blank"
+     rel="noopener noreferrer">
+    Buy Book IV
+  </a>
+</p>
         <div style="margin-top:1rem;">
           <a class="btn btn--gold" href="{{ '/tales/begin/' | relative_url }}">Recommended Order</a>
           <a class="btn" href="{{ '/tales/' | relative_url }}">All Books</a>
