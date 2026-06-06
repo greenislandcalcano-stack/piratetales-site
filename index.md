@@ -1,10 +1,9 @@
 ---
-
 layout: default
 title: Pirate Tales Chronicles
 permalink: /
-description: Pirate Tales Chronicles is an epic Caribbean pirate fantasy saga of cursed seas, ancient Taíno mysteries, colonial intrigue, supernatural legends, and lost treasure.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+description: ...
+---
 
 <section class="hero hero--pirate">
   <div class="hero__overlay"></div>
@@ -91,11 +90,11 @@ that refuse to die.
   <article class="book-card">
     <a href="{{ '/tales/book-3/' | relative_url }}">
       <img src="{{ '/assets/images/book-3.jpg' | relative_url }}"
-           alt="Pirate Tales Chronicles — Book III: The Assault of Santo Domingo cover"
+           alt="Pirate Tales Chronicles — Book III: The Assault of Saint Domingue cover"
            loading="lazy" decoding="async" width="800" height="1200">
     </a>
     <h3>Book III</h3>
-    <p class="book-card__title">The Assault of Santo Domingo</p>
+    <p class="book-card__title">The Assault of Saint Domingue</p>
   </article>
 
   <article class="book-card">
