@@ -1,15 +1,24 @@
 :root{
-  --bg:#0b0f14;
-  --panel: rgba(255,255,255,.03);
-  --text:#f3efe6;
-  --muted: rgba(243,239,230,.72);
-  --gold:#c8a24a;
-  --line: rgba(243,239,230,.12);
+--bg:#0b2740;
+--panel:rgba(244,235,208,.08);
 
-  --max: 1180px;
-  --r: 18px;
-  --shadow: 0 18px 55px rgba(0,0,0,.45);
+--text:#f6f0df;
+--muted:rgba(246,240,223,.82);
+
+--gold:#d4af37;
+--line:rgba(212,175,55,.18);
+
+--ocean:#0b3c5d;
+--sea:#1f7a8c;
+--sun:#f2c14e;
+--mahogany:#6b3e26;
+--parchment:#f4ebd0;
+
+--max:1180px;
+--r:18px;
+--shadow:0 18px 55px rgba(0,0,0,.45);
 }
+
 
 *{box-sizing:border-box;}
 html,body{height:100%;}
@@ -359,44 +368,7 @@ body{
 .book:hover .book__cover img{
   transform: scale(1.06);
 }
-<section id="books" class="section section--books">
-  <div class="container">
-    <h2 class="section__title">The Saga</h2>
-    <p class="section__intro">
-      Four books. One cursed sea. Every legend has a price.
-    </p>
 
-    <div class="grid grid--4">
-      <!-- Book I -->
-      <article class="book-card">
-        <img src="{{ '/assets/images/books/book-1-secret-treasure.jpg' | relative_url }}" alt="The Secret Treasure cover">
-        <h3>Book I</h3>
-        <p class="book-card__title">The Secret Treasure</p>
-      </article>
-
-      <!-- Book II -->
-      <article class="book-card">
-        <img src="{{ '/assets/images/books/book-2-islas-muertos.jpg' | relative_url }}" alt="Islas de los Muertos cover">
-        <h3>Book II</h3>
-        <p class="book-card__title">Islas de los Muertos</p>
-      </article>
-
-      <!-- Book III -->
-      <article class="book-card">
-        <img src="{{ '/assets/images/books/book-3-saint-domingue.jpg' | relative_url }}" alt="The Assault of Saint Domingue cover">
-        <h3>Book III</h3>
-        <p class="book-card__title">The Assault of Saint Domingue</p>
-      </article>
-
-      <!-- Book IV -->
-      <article class="book-card">
-        <img src="{{ '/assets/images/books/book-4-captains-curse.jpg' | relative_url }}" alt="The Captain’s Curse cover">
-        <h3>Book IV</h3>
-        <p class="book-card__title">The Captain’s Curse</p>
-      </article>
-    </div>
-  </div>
-</section>
 .section--books{
   padding: 6rem 0;
 }
@@ -772,4 +744,107 @@ html { scroll-behavior: smooth; }
   clip:rect(0,0,0,0);
   white-space:nowrap;
   border:0;
+}
+/* ======================================================
+PIRATE TALES CARIBBEAN THEME OVERRIDES
+====================================================== */
+
+body{
+background:
+linear-gradient(
+180deg,
+rgba(11,60,93,.45),
+rgba(31,122,140,.55)
+),
+url("/assets/images/wreck001.jpg")
+center / cover no-repeat fixed !important;
+
+color:var(--text);
+}
+
+/* brighter hero overlay */
+.hero--pirate::before{
+background:
+linear-gradient(
+90deg,
+rgba(11,60,93,.65) 0%,
+rgba(11,60,93,.50) 38%,
+rgba(31,122,140,.35) 62%,
+rgba(31,122,140,.12) 100%
+) !important;
+}
+
+/* warm Caribbean headings */
+h1,
+h2,
+h3{
+color:#f2c14e;
+text-shadow:0 3px 12px rgba(0,0,0,.45);
+}
+
+/* navigation */
+.brand{
+color:#f2c14e !important;
+}
+
+.nav__links a:hover{
+color:#f2c14e !important;
+}
+
+/* cards */
+.book-card{
+background:rgba(244,235,208,.05);
+border:1px solid rgba(212,175,55,.20);
+border-radius:16px;
+padding:.8rem;
+}
+
+.book-card:hover{
+border-color:rgba(212,175,55,.50);
+}
+
+/* buttons */
+.btn{
+background:rgba(107,62,38,.55);
+border:1px solid rgba(212,175,55,.25);
+}
+
+.btn:hover{
+background:rgba(11,60,93,.85);
+}
+
+.btn--gold{
+background:
+linear-gradient(
+180deg,
+#f2c14e,
+#d4af37
+);
+}
+
+/* sections */
+.section{
+position:relative;
+}
+
+.section::before{
+content:"";
+position:absolute;
+inset:0;
+pointer-events:none;
+
+background:
+linear-gradient(
+180deg,
+rgba(255,255,255,.01),
+rgba(212,175,55,.02)
+);
+}
+
+/* author page readability */
+.site-main .container{
+background:rgba(0,0,0,.18);
+border-radius:18px;
+backdrop-filter:blur(4px);
+padding:2rem;
 }
