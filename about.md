@@ -1,4 +1,4 @@
-----
+---
 
 layout: default
 title: About the Author
@@ -93,10 +93,3 @@ Fair winds and following seas.
 Creator of the Pirate Tales Saga
 
 *Since 2019*
-
-
-*Fair winds and following seas,*
-
-**Elvis Calcano**
-
-Author of the Pirate Tales Saga
