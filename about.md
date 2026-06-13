@@ -1,10 +1,9 @@
 ---
-
 layout: default
 title: About the Author
-description: Meet Elvis Calcano, creator of the Pirate Tales Saga, a Caribbean historical fantasy adventure series inspired by pirate legends, Taíno mythology, and the maritime history of Hispaniola.
+description: "Meet Elvis Calcano, creator of the Pirate Tales Saga, a Caribbean historical fantasy adventure series inspired by pirate legends, Taino mythology, and the maritime history of Hispaniola."
 permalink: /about/
-------------------
+---
 
 # About Elvis Calcano
 
